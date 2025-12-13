@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data Kampus</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* ========================= HEADER ========================= */
+    .header {
+        background: #b7dce7;
+        height: 150px;
+        border-bottom: 2px solid #a0a0a0;
+        display: flex;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .header img {
+        width: 110px;
+    }
+
+    .header-center {
+        flex: 1;
+        text-align: center;
+        margin-right: 150px;
+    }
+
+    .header-center h1 {
+        margin: 0;
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .header-center p {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    /* ========================= MENU KIRI ======================= */
+    .menu {
+        float: left;
+        width: 250px;
+        background: #ffffff;
+        height: 530px;
+        border-right: 2px solid #bdbdbd;
+        padding-top: 25px;
+    }
+
+    .menu h3 {
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn-red {
+        display: block;
+        background: #cc1c24;
+        width: 150px;
+        padding: 12px;
+        text-align: center;
+        color: white;
+        margin: 10px auto;
+        border-radius: 3px;
+        text-decoration: none;
+        font-weight: bold;
+        border: 1px solid #8d0000;
+        font-size: 14px;
+    }
+
+    /* ========================= CONTENT KANAN ==================== */
+    .content {
+        margin-left: 250px;
+        background: #f1f1f1;
+        min-height: 530px;
+        padding: 35px 40px;
+    }
+
+    .content h2 {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+
+    form {
+        width: 70%;
+        margin: auto;
+    }
+
+    label {
+        width: 100px;
+        display: inline-block;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    input, textarea {
+        width: 60%;
+        padding: 7px;
+        border: 1px solid #bebebe;
+        border-radius: 3px;
+    }
+
+    .btn-submit {
+        display: block;
+        background: #36b54a;
+        padding: 10px;
+        width: 160px;
+        margin: 25px auto;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+
+    /* ========================= FOOTER ========================== */
+    .footer {
+        clear: both;
+        background: #b7dce7;
+        padding: 18px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        border-top: 2px solid #a0a0a0;
+    }
+</style>
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <img src="logo.png">
+        <div class="header-center">
+            <h1>UNIVERSITAS INDRAPRASTA PGRI</h1>
+            <p>Jl. Nangka No.58 Tanjung Barat - Jaksel</p>
+        </div>
+    </div>
+
+    <!-- MENU KIRI -->
+    <div class="menu">
+        <h3>INPUT DATA KAMPUS</h3>
+
+        <a href="#" class="btn-red">Data Mahasiswa</a>
+        <a href="#" class="btn-red">Data Dosen</a>
+        <a href="#" class="btn-red">Data Pegawai</a>
+    </div>
+
+    <!-- CONTENT FORM -->
+    <div class="content">
+        <h2>Input Data Mahasiswa</h2>
+
+        <form>
+            <label>NPM</label>
+            <input type="text"><br>
+
+            <label>Nama</label>
+            <input type="text"><br>
+
+            <label>Alamat</label>
+            <textarea rows="4"></textarea><br>
+
+            <button class="btn-submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        Created By @NPM dan Nama Tahun 2023
+    </div>
+
+</body>
+</html>
